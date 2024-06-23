@@ -1,0 +1,47 @@
+.logine {
+  background-image: url(../public/sin.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  .logine {
+    width: 100%;
+    height: 550px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logine {
+    height: 280px; /* Further adjusted height for even smaller screens */
+  }
+}
+
+.Clicknow {
+  background-image: url(../public/Logine2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  .Clicknow {
+    width: 100%;
+    height: 550px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Clicknow {
+    height: 280px; /* Further adjusted height for even smaller screens */
+  }
+}
+.card {
+  border-radius: 8px;
+background: #e0e0e0;
+box-shadow:  10px 10px 20px #bebebe,
+             -10px -10px 20px #ffffff;
+}
